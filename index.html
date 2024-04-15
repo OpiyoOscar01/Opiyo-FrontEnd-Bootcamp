@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-4 fixed-top">
+    <div class="container">
+        <a href="#" class="navbar-brand"><span class="text-warning"><h1>Opiyo</h1></span> Frontend BootCamp</a>
+
+        <button
+        class="navbar-toggler btn btn-primary" 
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navmenu"
+    >
+        <span class="navbar-toggler-icon text-primary"></span>
+         <!-- Added "text-primary" class for blue color -->
+    </button>
+    
+
+    
+    <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav  ms-auto" >   
+            <li class="nav-item"><a href="#Learn" class="nav-link">What you'll learn.</a></li>
+            <li class="nav-item"><a href="#Questions" class="nav-link">Questions.</a></li>
+            <li class="nav-item"><a href="#Instructors" class="nav-link">Instructors</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<section class="bg-dark text-light p-5 p-lg-4 text-center text-sm-start">
+    <div class="container">
+        
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+                <h1>Become a Web  <span class="text-warning">Developer</span></h1>
+            <p class="lead my-4">Join us and let's shape the digital world, create stunning websites, solve real-world problems, and enjoy a dynamic career with endless learning opportunities. 🌐💻</p>
+            <button
+             class="btn btn-primary btn-lg"
+              data-bs-toggle="modal" 
+              data-bs-target="#enrol">Start The Enrolment</button>
+            </div>
+            <img style="border-radius: 10px;" class="img-fluid w-50  d-sm-block mt-5" src="BT-V5 IMAGES/Learning.jpeg" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- News letter -->
+<section class="bg-primary text-light p-5">
+    <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Sign up for Our Newsletter.</h3>
+            <div class="input-group news-input">
+                <input 
+                type="text" 
+                class="form-control"
+                 placeholder="Enter your email address...." 
+                 aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button 
+                class="btn btn-dark btn-lg" 
+                type="button" 
+                id="button-addon2">Signup</button>
+              </div>
+        </div>
+    </div>
+</section>
+
+<!-- boxes -->
+<section class="p-5" id="Learn">
+    <div class="container">
+        <div class="row text-center">
+<!-- col-md makes the column stack on small screens. -->
+<div class="col-md mb-3">
+    <div class="card bg-dark text-light">
+        <div class="h1 mb-3 bg-dark">💻</div>
+        <h3 class="card-title" style="color: white;">virtual</h3>
+        <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, culpa.</p>
+        <a href="#" class="btn btn-primary" >Read More...</a>
+    </div>
+</div>
+            <div class="col-md mb-3">
+                <div class="card bg-dark text-light">
+                    <div class="h1 mb-3 bg-dark">🔗</div>
+                    <h3 class="card-title" style="color: white;">Hybrid</h3>
+                    <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, culpa.</p>
+                    <a href="#" class="btn btn-primary" >Read More...</a>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="h1 mb-3 bg-dark">🤼</div>
+                    <h3 class="card-title" style="color: white;">In Person</h3>
+                    <p class="card-text" style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, culpa.</p>
+                    <a href="#" class="btn btn-primary" >Read More...</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div class="container">
+
+    
+    <div class="row align-items-center justify-content-between g-3">
+        <div class="col-md ">
+            <img style="border-radius: 10px;" src="BT-V5 IMAGES/React.jpeg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md">
+            <h2>Learn The Fundamentals</h2>
+            <P class="LEAD">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tenetur iusto ad eaque culpa minima, sint, animi modi error earum totam iure. Impedit, labore aut. Eveniet incidunt voluptates quae? Aliquid.</P>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, harum eius ut quod veniam quam, explicabo modi voluptatem sit quisquam beatae eligendi molestiae dicta possimus corporis aliquam, voluptatibus et saepe.</p>
+            <a href="#" class="btn-light mt-3">>>Read more..</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="p-5 bg-dark mt-3">
+    <div class="container">
+
+    
+        <div class="row align-items-center justify-content-between g-3">
+           
+            <div class="col-md text-light">
+                <h2>Learn React</h2>
+                <P class="LEAD">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tenetur iusto ad eaque culpa minima, sint, animi modi error earum totam iure. Impedit, labore aut. Eveniet incidunt voluptates quae? Aliquid.</P>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, harum eius ut quod veniam quam, explicabo modi voluptatem sit quisquam beatae eligendi molestiae dicta possimus corporis aliquam, voluptatibus et saepe.</p>
+                <a href="#" class="btn-light mt-3"><h1>Get Started Now...</h1></a>
+            </div>
+            <div class="col-md ">
+                <img style="border-radius: 10px;" src="BT-V5 IMAGES/reactPerson.jpeg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Frequently asked questions: Accordions. -->
+<section id="Questions" class="p-5" >
+    <div class="container">
+        <h2 style="color: rgb(0, 157, 255);" class="text-center mb-4">
+Frequently Asked Questions.
+        </h2>
+        <div class="accordion" id="accordionQuestions">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+<b>
+    What is front end? 
+
+</b>    </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       <b>The front end refers to the part of a website or web application that users interact with directly. It encompasses the user interface (UI), which includes elements like buttons, forms, navigation menus, and visual design. Frontend development focuses on creating a seamless and user-friendly experience for website visitors.</b>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseThree">
+<b>        What is the difference between front end and back end?
+</b>
+    </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       <b>
+        The front end deals with the presentation layer visible to users, while the back end handles server-side logic, databases, and data processing. Frontend developers work on the client side, using technologies like HTML, CSS, and JavaScript, while backend developers manage server infrastructure, APIs, and databases.
+       </b>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+<b>        What skills do you need to become a front-end web developer?    </b>  </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <b>
+        To excel as a front-end developer, you need proficiency in: <br>
+HTML: For structuring web content. <br>
+CSS: For styling and layout. <br>
+JavaScript: For interactivity and dynamic behavior.  <br>
+Responsive design: Ensuring websites work well on various devices. <br>
+User interface (UI) design: Creating visually appealing interfaces.  <br>
+Testing: Ensuring functionality across browsers and devices.
+      </b>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+       <b> What does a front-end developer do? </b>     </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       <b>
+        Front-end developers: <br>
+Translate design mockups into functional web pages.  <br>
+Optimize performance and load times. <br>
+Implement responsive designs. <br>
+Collaborate with designers and backend developers. <br>
+Debug and troubleshoot issues related to user experience.
+       </b>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+</div>
+    </div>
+</section>
+<section id="Instructors" class="p-5 bg-primary">
+    <div class="container">
+        <h2 class="text-center" style="color:white;">Our Instructors</h2>
+        <p class="lead text-center text-white mt-2 mb-3">
+All Our Instructors have 5+ years of working in the Web development industry.Many developers testify how good and excellent they are as far as tutoring is concerned!
+        </p>
+        <div class="row g-4 text-align:center">
+            <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+            <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/women/19.jpg" alt="" class="rounded-circle mb-3">
+            <h3 class="card-title mb-3">Kevin Mackline</h3>
+                    </div>
+                    <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis veritatis doloribus maiores accusantium est ratione odio cumque ut ipsa iste nemo, assumenda cum dolorem! Saepe deleniti voluptate adipisci harum unde.</p>
+
+                    <div class="image-container">
+                        <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/twitter.jpeg" alt=""></a>
+                        <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/Whatsapp.jpeg" alt=""></a>
+                        <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/facebook.jpeg" alt=""></a>
+                        <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/instagram.jpeg" alt=""></a>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <div class="card bg-light">
+                <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/men/19.jpg" alt="" class="rounded-circle mb-3">
+                <h3 class="card-title mb-3">Steve Denny</h3>
+                        </div>
+                        <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta pariatur ratione quam eos ad provident nesciunt. Quos doloribus, consectetur autem praesentium delectus molestiae. </p>
+    
+                        <div class="image-container">
+                            <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/twitter.jpeg" alt=""></a>
+                            <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/Whatsapp.jpeg" alt=""></a>
+                            <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/facebook.jpeg" alt=""></a>
+                            <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/instagram.jpeg" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                    <div class="card-body text-center">
+                    <img src="https://randomuser.me/api/portraits/women/24.jpg" alt="" class="rounded-circle mb-3">
+                    <h3 class="card-title mb-3">Stella Paula</h3>
+                            </div>
+                            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ad voluptas quasi sit. Molestias eaque omnis labore perspiciatis porro, sequi est quas dolores neque obcaecati suscipit soluta error inventore minima!
+                            </p>
+        
+                            <div class="image-container">
+                                <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/twitter.jpeg" alt=""></a>
+                                <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/Whatsapp.jpeg" alt=""></a>
+                                <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/facebook.jpeg" alt=""></a>
+                                <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/instagram.jpeg" alt=""></a>
+                            </div>
+                            
+        
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                        <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/29.jpg" alt="" class="rounded-circle mb-3">
+                        <h3 class="card-title mb-3">Mark Jones</h3>
+                                </div>
+                                <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ad voluptas quasi sit. Molestias eaque omnis labore perspiciatis porro, sequi est quas dolores neque obcaecati suscipit soluta error inventore minima!
+                                </p>
+            
+                                <div class="image-container">
+                                    <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/twitter.jpeg" alt=""></a>
+                                    <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/Whatsapp.jpeg" alt=""></a>
+                                    <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/facebook.jpeg" alt=""></a>
+                                    <a href="#"><img width="40px" height="40px" src="BT-V5 IMAGES/instagram.jpeg" alt=""></a>
+                                </div>
+                                
+            
+                            </div>
+                        </div>
+                    
+        </div>
+    </div>
+</section>
+<!-- Contact and map -->
+<section class="p-5">
+    <div class="container">
+        <div class="row g-4" >
+            <div class="col-md">
+                <h2 class="text-center mb-4">Contacts Info</h2>
+<ul class="list-group list-group-flush lead">
+    <li class="list-group-item">
+        <span class="fw-bold">Location:</span> 12th Street Upper Kampala.
+    </li>
+    <li class="list-group-item">
+        <span class="fw-bold">Enrolment Phone:</span> +256756-697-871
+    </li>
+    <li class="list-group-item">
+        <span class="fw-bold">Enrolment Email:</span> opiyooscar414@gamil.com
+    </li>
+    <li class="list-group-item">
+        <span class="fw-bold">Inquiry Phone:</span> +256764-428-003
+    </li>
+    <li class="list-group-item">
+        <span class="fw-bold">Inquiry Email:</span> oscaropiyodev@gmail.com
+    </li>
+</ul>
+            </div>
+            <div class="col-md">
+                <p style="text-align:center;font-size:20;color:rgb(0, 174, 255)"><b>Feel free to zoom the map in and out.</b></p>
+                <div id="map"></div>
+            </div>
+        </div>
+       
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+        <p class="lead">
+            CopyRight &copy; 2024 Opiyo Frontend Bootcamp.All rights Reserved. <a  href="#" class="position-absolute h1 end-0 h3">Go up⬆</a>
+        </p>
+          
+     
+    </div>
+   
+
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="enrol" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="enrol">Opiyo Frontend Bootcamp Enrolment Form.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">
+                    Fill out this form and we will get back to you.
+                </p>
+
+                <form action="https://www.google.com">
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">First Name:</label>
+                        <input name="firstname" type="text" class="form-control" id="firstname" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="last-name" class="col-form-label">Last Name:</label>
+                        <input name="lastname" type="text" class="form-control" id="lastname" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label  for="email" class="col-form-label">Email Address:</label>
+                        <input name="email" type="email" class="form-control" id="email" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label name="phone" for="phone" class="col-form-label">Phone Number:</label>
+                        <input type="text" class="form-control" id="phone" required>
+                    </div>
+                </form>
+                <p id="confirmed"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" id="button" onclick="confirmation()">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+
+<!-- <div id='map' style='width: 400px; height: 300px;'></div> -->
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoib3BpeW9vc2NhcjAxIiwiYSI6ImNsdjEycWY1dzAyaWkyanA4Z3pwZThtOGQifQ.TCYAwUeln3DqLO0xBk4YZA';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center:[32.5825,0.3476],
+    zoom:10
+  });
+  new mapboxgl.Marker()
+  .setLngLat([32.5825, 0.3476])
+  .addTo(map);
+
+// Add zoom controls
+map.addControl(new mapboxgl.NavigationControl());
+
+
+function confirmation(){
+    document.getElementById("confirmed").innerHTML=`Your details were submitted sucessfully.We will get back to you.Thank you!`;
+}
+
+button.addEventListener('click',confirmation);
+
+</script>
+
+
+</body>
+</html>
+
